@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muhammad Hamza | Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <!--- Navigation Bar --->
+<body>
+  <nav>
+    <div class="navbar" id="mynavbar">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT ME</a>
+      <a href="resume.html">RESUME</a>
+      <a href="portfolio.html" class="active">PORTFOLIO</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+  <!--- Section 1: Title --->
+  <div class="about_me_title">
+    <div class="about_me_text">
+      <h1>PORTFOLIO</h1>
+    </div>
+  </div>
+<!-- Portfolio Gallery Grid -->
+<div style="background-color: var(--alternative)">
+  <div style="max-width: 1800px; margin: 0 auto !important; float: none !important;">
+  <!--- Section 2a: GIS Portfolio control buttons --->
+  <div class="portfolio_cont">
+  <div id="myBtnContainer">
+    <button class="portbtn portactive" onclick="filterSelection('all')"> Show all</button>
+    <button class="portbtn" onclick="filterSelection('GIS')"> GIS</button>
+    <button class="portbtn" onclick="filterSelection('remotesensing')"> Remote Sensing</button>
+    <button class="portbtn" onclick="filterSelection('webmaps')"> Web Mapping</button>
+        <button class="portbtn" onclick="filterSelection('arid')"> Arid Labs</button>
+    <button class="portbtn" onclick="filterSelection('develop')"> Python</button>
+    <button class="portbtn" onclick="filterSelection('hardware')"> GIS Hardware</button>
+  </div>
+<div class="portrow">
+  <div class="portcolumn GIS develop">
+    <div class="portcontent">
+      <a href="projects/National_Spatial_Data_Infrastructure_NSDI_Focussed_Cadaster_Projects.html" target="" class="port_txt">
+        <img src="images/sop11.jpg" alt="National Spatial Data Infrastructure (NSDI) Focussed Cadaster Projects" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">National Spatial Data Infrastructure (NSDI) Focussed Cadaster Projects</h3>
+        <h4>Image Credit: SOP PAK</h4>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn remotesensing">
+    <div class="portcontent">
+      <a href="projects/Mapping_Multan_NDVI_Timeseries_using_Google_Earth_Engine_JavaScript_API.html" target="" class="port_txt">
+        <img src="images/sen2.png" alt="Mapping Multan NDVI Timeseries using Google Earth Engine JavaScript API" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">Mapping Multan NDVI Timeseries using Google Earth Engine JavaScript API</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS webmaps develop">
+    <div class="portcontent">
+      <a href="projects/John_Hopkins_University_Covid_GIS_APP.html" target="" class="port_txt">
+        <img src="images/covid.png" alt="John Hopkins University Covid GIS APP" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">John Hopkins University Covid GIS APP</h3>
+        <h4>Image Credit: JHU CA</h4>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS arid">
+    <div class="portcontent">
+      <a href="projects/GEOMETRIC_NETWORK_IMPLEMENTATION_OF_UPDM.html" target="" class="port_txt">
+        <img src="images/geom.png" class alt="UTILITY/GEOMETRIC NETWORK IMPLEMENTATION OF UPDM" style="width:100%">
+        <h3 style="font-family: 'Montserrat', sans-serif;">UTILITY/GEOMETRIC NETWORK IMPLEMENTATION OF UPDM</h3>
+        <h4>Image Credit: ARID UNIVERSITY</h4>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS arid">
+    <div class="portcontent">
+      <a href="projects/Network_analysis_to_get_shortest_route_and_service_area.html" target="" class="port_txt">
+      <img src="images/netw.png" alt="Network analysis to get shortest route and service area" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Network analysis to get shortest route and service area</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS remotesensing">
+    <div class="portcontent">
+      <a href="projects/Drone_Imagery_Processing_to_calculate_Volume_of_Stock-Piles.html" target="" class="port_txt">
+      <img src="images/STOCKPILEDSM.png" alt="Drone Imagery Processing to calculate Volume of Stock-Piles" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Drone Imagery Processing to calculate Volume of Stock-Piles</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS">
+    <div class="portcontent">
+      <a href="projects/Geo-Coding_Stores_of_New_York_using_ESRIS_ArcGIS.html" target="" class="port_txt">
+      <img src="images/geocode.png" alt="Geo-Coding Stores of New York using ESRI'S ArcGIS" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Geo-Coding Stores of New York using ESRI'S ArcGIS</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn remotesensing">
+    <div class="portcontent">
+      <a href="projects/Core_of_Earth_with_focus_on_Magma_&_Volcano.html" target="" class="port_txt">
+      <img src="images/magma.png" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Core of Earth with focus on Magma & Volcano</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS webmaps develop">
+    <div class="portcontent">
+      <a href="projects/AirPort_Islamabad_City_Landinfo_Portal.html" target="" class="port_txt">
+      <img src="images/isb.png" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">AirPort Islamabad City Landinfo Portal</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn webmaps develop">
+    <div class="portcontent">
+      <a href="projects/AGRI_Measure_App.html" target="" class="port_txt">
+      <img src="images/agri6.png" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">AGRI Measure App</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS hardware develop">
+    <div class="portcontent">
+      <a href="projects/GPS_NEO_6M_Making_using_Arduino.html" target="" class="port_txt">
+      <img src="images/neo6gp.jpg" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">GPS NEO 6M Making using Arduino</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS webmaps">
+    <div class="portcontent">
+      <a href="projects/GeoServer_Australia_Soil_Webapp.html" target="" class="port_txt">
+      <img src="images/au.png" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">GeoServer Web App: Soil Features of Australia</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS">
+    <div class="portcontent">
+      <a href="projects/911_Calls_Predictive_Analysis_using_GWR.html" target="" class="port_txt">
+      <img src="images/stationsgwr.png" alt="People" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">911 Calls Predictive Analysis using GWR</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS hardware">
+    <div class="portcontent">
+      <a href="projects/SEC_Digital_meter_Reading_phase_1.html" target="" class="port_txt">
+      <img src="images/ocr.png" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">PYTHON OCR: SEC Digital meter Reading phase 1</h3>
+      </a>
+    </div>
+  </div>
+  <div class="portcolumn GIS arid develop">
+    <div class="portcontent">
+      <a href="projects/Arcpy_and_Model_Builder_as_frontlines_of_GIS_automation.html" target="" class="port_txt">
+      <img src="images/arc.png" alt="Car" style="width:100%">
+      <h3 style="font-family: 'Montserrat', sans-serif;">Arcpy and Model Builder as frontlines of GIS automation</h3>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- END GRID -->
+</div>
+</div>
+</div>
+  <!--- Section 3: Contact Information --->
+  <div class="about_me_interests_cont_pg2">
+    <div class="about_me_interests_pg2">
+      <br>
+      <h2 style="font-family: 'Montserrat', sans-serif;">Contact</h2>
+      <br>
+      <p>Please feel free to contact me at my email address or through my LinkedIn Account below.</p>
+      <br>
+      <h2 style="font-family: 'Montserrat', sans-serif;">Email</h2>
+      <br>
+      <p>mhwahla360@gmail.com</p>
+      <br>
+    </div>
+  </div>
+  <!--- Footer --->
+  <div class="top_footer">
+    <p style="font-size: 24px; font-family: 'Montserrat', sans-serif;">Contact Me</p>
+    <a href="https://www.linkedin.com/in/mhwahla/"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/mhwahla"><i class="fa fa-github"></i></a>
+  </div>
+  <div class="bottom_footer">
+    <p><small>&copy; Copyright 2023, Muhammad Hamza</small></p>
+  </div>
+  <script src="scripts/filter.js"></script>
+  <script src="scripts/icon.js"></script>
+  </body>
+</html>
